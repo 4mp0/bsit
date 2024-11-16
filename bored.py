@@ -76,3 +76,6 @@ def func3():
 funcs: dict[str] = {"1":func1, "2":func2, "3":func3}
 usrinput = input("input 1, 2, 3 ")
 run = funcs.get(usrinput, "3")()
+
+shout = lambda arg: print("\n",arg,"\n")
+shout("Hello World")

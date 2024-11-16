@@ -22,7 +22,7 @@ def usr():
     if usrInput == "yes" or usrInput == "y":
         rndmQ()
         usr()
-    if usrInput == "no" or usrInput == "n":
+    elif usrInput == "no" or usrInput == "n":
         print("See you next time!")
         exit()
     else:
